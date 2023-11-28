@@ -1,13 +1,11 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+/* eslint-disable no-unused-vars */
+import React from 'react'
 import Header from './Component/Header.jsx'
 import Footer from './Component/Footer.jsx'
 import Gallery from './Component/Gallery.jsx'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
